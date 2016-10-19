@@ -69,9 +69,6 @@ h2. Authors:
 
 h2. Known issues:
 
-* attached image will be visibile in exported PDFs only if RMagick is installed
-  (this is a limit of PDF export in Redmine - alpha channel must be removed from
-  png image; this has been fixed in Redmine 2.6)
 * thumbnails using @{{thumbnail}}@ macro will not be shown in exported PDFs
   (another Redmine's PDF export limit - see http://www.redmine.org/issues/13051)
 * maximum attachment size is checked against BASE64 encoded image data (even
